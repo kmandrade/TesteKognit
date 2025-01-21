@@ -1,17 +1,37 @@
-var builder = WebApplication.CreateBuilder(args);
+using ApiTesteKognit.Ioc;
+using Serilog;
+try
+{
+    var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+    var logger = new LoggerConfiguration()
+        .ReadFrom.Configuration(builder.Configuration)
+        .Enrich.FromLogContext()
+        .CreateLogger();
+    builder.Logging.ClearProviders();
+    builder.Logging.AddSerilog(logger);
 
-builder.Services.AddControllers();
+    builder.Services.AddControllers();
+    builder.Services.AddInfrastructure(builder.Configuration);
+    var app = builder.Build();
 
-var app = builder.Build();
+    app.UseHttpsRedirection();
 
-// Configure the HTTP request pipeline.
+    app.UseAuthorization();
 
-app.UseHttpsRedirection();
+    app.MapControllers();
 
-app.UseAuthorization();
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api Kognit");
+        c.RoutePrefix = "swagger";
+    });
 
-app.MapControllers();
+    app.Run();
 
-app.Run();
+}
+catch (Exception ex)
+{
+    Log.Fatal(ex, "Fatal error, hot terminated.");
+}
