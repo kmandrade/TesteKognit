@@ -1,0 +1,170 @@
+2025-01-21 19:23:58.022 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/weatherforecast - null null
+2025-01-21 19:23:58.028 -03:00  INF  Application started. Press Ctrl+C to shut down.
+2025-01-21 19:23:58.044 -03:00  INF  Hosting environment: Development
+2025-01-21 19:23:58.044 -03:00  INF  Content root path: D:\Projetos\TesteKognit\ApiTesteKognit
+2025-01-21 19:23:58.138 -03:00  ERR  An unhandled exception has occurred while executing the request.System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2025-01-21 19:23:58.193 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 19:23:58.193 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/_vs/browserLink - null null
+2025-01-21 19:23:58.193 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/weatherforecast - 500 null text/html; charset=utf-8 174.2243ms
+2025-01-21 19:23:58.195 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 2.3072ms
+2025-01-21 19:23:58.250 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.469ms
+2025-01-21 19:23:58.271 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/favicon.ico - null null
+2025-01-21 19:23:58.273 -03:00  ERR  An unhandled exception has occurred while executing the request.System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2025-01-21 19:23:58.277 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/favicon.ico - 500 null text/plain; charset=utf-8 6.5211ms
+2025-01-21 19:24:46.019 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/swagger - null null
+2025-01-21 19:24:46.035 -03:00  INF  Application started. Press Ctrl+C to shut down.
+2025-01-21 19:24:46.041 -03:00  INF  Hosting environment: Development
+2025-01-21 19:24:46.041 -03:00  INF  Content root path: D:\Projetos\TesteKognit\ApiTesteKognit
+2025-01-21 19:24:46.142 -03:00  ERR  An unhandled exception has occurred while executing the request.System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2025-01-21 19:24:46.204 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/_vs/browserLink - null null
+2025-01-21 19:24:46.204 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 19:24:46.205 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/swagger - 500 null text/html; charset=utf-8 193.0368ms
+2025-01-21 19:24:46.206 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 2.2717ms
+2025-01-21 19:24:46.240 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.3737ms
+2025-01-21 19:24:46.260 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/favicon.ico - null null
+2025-01-21 19:24:46.262 -03:00  ERR  An unhandled exception has occurred while executing the request.System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2025-01-21 19:24:46.266 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/favicon.ico - 500 null text/plain; charset=utf-8 5.7695ms
+2025-01-21 19:25:47.866 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/swagger - null null
+2025-01-21 19:25:47.888 -03:00  INF  Application started. Press Ctrl+C to shut down.
+2025-01-21 19:25:47.893 -03:00  INF  Hosting environment: Development
+2025-01-21 19:25:47.893 -03:00  INF  Content root path: D:\Projetos\TesteKognit\ApiTesteKognit
+2025-01-21 19:25:48.015 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/swagger - 404 null null 158.1381ms
+2025-01-21 19:25:48.020 -03:00  INF  Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44339/swagger, Response status code: 404
+2025-01-21 19:25:54.568 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/swagger/index.html - null null
+2025-01-21 19:25:54.585 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/swagger/index.html - 404 null null 14.6913ms
+2025-01-21 19:25:54.587 -03:00  INF  Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44339/swagger/index.html, Response status code: 404
+2025-01-21 19:25:57.219 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/index.html - null null
+2025-01-21 19:25:57.280 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/index.html - 200 null text/html;charset=utf-8 60.7855ms
+2025-01-21 19:25:57.290 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/index.css - null null
+2025-01-21 19:25:57.290 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/swagger-ui.css - null null
+2025-01-21 19:25:57.296 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/swagger-ui-bundle.js - null null
+2025-01-21 19:25:57.298 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/_vs/browserLink - null null
+2025-01-21 19:25:57.304 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/swagger-ui-standalone-preset.js - null null
+2025-01-21 19:25:57.313 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 19:25:57.319 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/index.js - null null
+2025-01-21 19:25:57.325 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/index.js - 200 null application/javascript;charset=utf-8 7.0675ms
+2025-01-21 19:25:57.325 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 13.9426ms
+2025-01-21 19:25:57.350 -03:00  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-01-21 19:25:57.350 -03:00  INF  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-01-21 19:25:57.350 -03:00  INF  Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-01-21 19:25:57.350 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/index.css - 200 202 text/css 60.5084ms
+2025-01-21 19:25:57.352 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/swagger-ui.css - 200 152035 text/css 61.2323ms
+2025-01-21 19:25:57.353 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/swagger-ui-standalone-preset.js - 200 230007 text/javascript 50.2195ms
+2025-01-21 19:25:57.356 -03:00  INF  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-01-21 19:25:57.370 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.3079ms
+2025-01-21 19:25:57.376 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/swagger-ui-bundle.js - 200 1426050 text/javascript 81.8145ms
+2025-01-21 19:25:57.487 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/swagger/v1/swagger.json - null null
+2025-01-21 19:25:57.504 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/favicon-32x32.png - null null
+2025-01-21 19:25:57.504 -03:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-01-21 19:25:57.505 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/favicon-32x32.png - 200 628 image/png 0.9686ms
+2025-01-21 19:25:57.551 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.6288ms
+2025-01-21 19:27:18.184 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/swagger/index.html - null null
+2025-01-21 19:27:18.202 -03:00  INF  Application started. Press Ctrl+C to shut down.
+2025-01-21 19:27:18.208 -03:00  INF  Hosting environment: Development
+2025-01-21 19:27:18.209 -03:00  INF  Content root path: D:\Projetos\TesteKognit\ApiTesteKognit
+2025-01-21 19:27:18.348 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-21 19:27:18.411 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/swagger/swagger-ui-bundle.js - null null
+2025-01-21 19:27:18.411 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/swagger/index.css - null null
+2025-01-21 19:27:18.413 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/swagger/swagger-ui.css - null null
+2025-01-21 19:27:18.418 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/swagger/swagger-ui-standalone-preset.js - null null
+2025-01-21 19:27:18.423 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/swagger/index.html - 200 null text/html;charset=utf-8 234.5594ms
+2025-01-21 19:27:18.428 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 76.0907ms
+2025-01-21 19:27:18.425 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/swagger/index.js - null null
+2025-01-21 19:27:18.430 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/_vs/browserLink - null null
+2025-01-21 19:27:18.445 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/swagger/index.js - 200 null application/javascript;charset=utf-8 21.6138ms
+2025-01-21 19:27:18.453 -03:00  INF  Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-01-21 19:27:18.453 -03:00  INF  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-01-21 19:27:18.453 -03:00  INF  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-01-21 19:27:18.453 -03:00  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-01-21 19:27:18.453 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/swagger/index.css - 200 202 text/css 43.9254ms
+2025-01-21 19:27:18.460 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 42.3611ms
+2025-01-21 19:27:18.461 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/swagger/swagger-ui.css - 200 152035 text/css 49.1489ms
+2025-01-21 19:27:18.483 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 71.1621ms
+2025-01-21 19:27:18.492 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.8831ms
+2025-01-21 19:27:18.601 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/swagger/v1/swagger.json - null null
+2025-01-21 19:27:18.619 -03:00  INF  Request starting HTTP/2 GET https://localhost:44339/swagger/favicon-32x32.png - null null
+2025-01-21 19:27:18.621 -03:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-01-21 19:27:18.621 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/swagger/favicon-32x32.png - 200 628 image/png 2.0753ms
+2025-01-21 19:27:18.649 -03:00  INF  Request finished HTTP/2 GET https://localhost:44339/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 47.4877ms
+2025-01-21 19:42:40.831 -03:00  WRN  No store type was specified for the decimal property 'CurrentValue' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-21 19:42:40.909 -03:00  WRN  No store type was specified for the decimal property 'CurrentValue' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-21 19:42:48.745 -03:00  WRN  No store type was specified for the decimal property 'CurrentValue' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-21 19:42:49.716 -03:00  WRN  No store type was specified for the decimal property 'CurrentValue' on entity type 'Wallet'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-21 19:42:49.927 -03:00  INF  Executed DbCommand (181ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [DataBaseKognit];
+2025-01-21 19:42:50.007 -03:00  INF  Executed DbCommand (78ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [DataBaseKognit] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-01-21 19:42:50.021 -03:00  INF  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-21 19:42:50.062 -03:00  INF  Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2025-01-21 19:42:50.063 -03:00  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-01-21 19:42:50.072 -03:00  INF  Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-01-21 19:42:50.086 -03:00  INF  Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-01-21 19:42:50.095 -03:00  INF  Applying migration '20250121224242_Add_Entities'.
+2025-01-21 19:42:50.125 -03:00  INF  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [BithDate] datetime2 NOT NULL,
+    [NrCpf] nvarchar(450) NOT NULL,
+    [Active] bit NULL,
+    [DateCreated] datetime2 NULL,
+    [DateModified] datetime2 NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);
+2025-01-21 19:42:50.130 -03:00  INF  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Wallets] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] int NOT NULL,
+    [CurrentValue] decimal(18,2) NOT NULL,
+    [Bank] nvarchar(max) NOT NULL,
+    [Active] bit NULL,
+    [DateCreated] datetime2 NULL,
+    [DateModified] datetime2 NULL,
+    CONSTRAINT [PK_Wallets] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Wallets_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2025-01-21 19:42:50.136 -03:00  INF  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Users_NrCpf] ON [Users] ([NrCpf]);
+2025-01-21 19:42:50.138 -03:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Wallets_UserId] ON [Wallets] ([UserId]);
+2025-01-21 19:42:50.147 -03:00  INF  Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250121224242_Add_Entities', N'8.0.0');
