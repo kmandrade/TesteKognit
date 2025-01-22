@@ -26,7 +26,7 @@ public class UserService : IUserService
             var result = await _userRepository.CreateUserAsync(new User
             {
                 Active = true,
-                BithDate = model.BithDate,
+                BirthDate = Convert.ToDateTime(model.BirthDate),
                 DateCreated = DateTime.Now,
                 Name = model.Name,
                 NrCpf = model.NrCpf
@@ -35,7 +35,7 @@ public class UserService : IUserService
             {
                 NrCpf = result.NrCpf,
                 Name = result.Name,
-                BithDate = result.BithDate,
+                BirthDate = result.BirthDate.ToString(),
                 UserId = result.Id,
                 Active = result.Active
             };
@@ -58,7 +58,7 @@ public class UserService : IUserService
 
         return users.Select(x => new UserViewModel
         {
-            BithDate = x.BithDate,
+            BirthDate = x.BirthDate.ToString(),
             Name = x.Name,
             NrCpf = x.NrCpf,
             UserId = x.Id,

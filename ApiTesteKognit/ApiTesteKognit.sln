@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTesteKognit", "ApiTesteKognit.csproj", "{C06DEA2C-CA8D-4DF7-B135-A240501A7556}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTesteKognit", "ApiTesteKognit.csproj", "{C06DEA2C-CA8D-4DF7-B135-A240501A7556}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{0BEFC965-CC19-4B5B-A89E-4286640F2C76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "..\Domain\Domain.csproj", "{0BEFC965-CC19-4B5B-A89E-4286640F2C76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "..\Repository\Repository.csproj", "{BB01B6D3-AC71-4FF1-8662-C0405C8B4153}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "..\Repository\Repository.csproj", "{BB01B6D3-AC71-4FF1-8662-C0405C8B4153}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "..\Service\Service.csproj", "{7A1A9C05-C76A-4163-97F9-83ABB4537ECC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "..\Service\Service.csproj", "{7A1A9C05-C76A-4163-97F9-83ABB4537ECC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "..\ViewModel\ViewModel.csproj", "{7643BCAF-1F86-4FD8-9CF0-C493DF6EFFCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewModel", "..\ViewModel\ViewModel.csproj", "{7643BCAF-1F86-4FD8-9CF0-C493DF6EFFCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BE724B54-2D22-48A0-876D-426990804590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "..\UnitTest\UnitTest.csproj", "{20C4E7A7-9D35-4E69-B442-EA0A0A5BE0D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTest", "..\IntegrationTest\IntegrationTest.csproj", "{4672803D-E28E-44B6-9934-C26A7715AC21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,9 +45,21 @@ Global
 		{7643BCAF-1F86-4FD8-9CF0-C493DF6EFFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7643BCAF-1F86-4FD8-9CF0-C493DF6EFFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7643BCAF-1F86-4FD8-9CF0-C493DF6EFFCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C4E7A7-9D35-4E69-B442-EA0A0A5BE0D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C4E7A7-9D35-4E69-B442-EA0A0A5BE0D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C4E7A7-9D35-4E69-B442-EA0A0A5BE0D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C4E7A7-9D35-4E69-B442-EA0A0A5BE0D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4672803D-E28E-44B6-9934-C26A7715AC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4672803D-E28E-44B6-9934-C26A7715AC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4672803D-E28E-44B6-9934-C26A7715AC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4672803D-E28E-44B6-9934-C26A7715AC21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20C4E7A7-9D35-4E69-B442-EA0A0A5BE0D3} = {BE724B54-2D22-48A0-876D-426990804590}
+		{4672803D-E28E-44B6-9934-C26A7715AC21} = {BE724B54-2D22-48A0-876D-426990804590}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {94E3828C-0BEA-4079-9ABA-06722AC69AA3}

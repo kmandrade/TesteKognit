@@ -35,3 +35,4 @@ catch (Exception ex)
 {
     Log.Fatal(ex, "Fatal error, hot terminated.");
 }
+public partial class Program { }

@@ -27,7 +27,7 @@ public class WalletService : IWalletService
     {
         try
         {
-            var user = await _userRepository.GetUserByIdAsync(model.UserId);
+            var user = await _userRepository.GetUserByIdAsync(model.UserId ?? 0);
 
             if (user == null)
                 return Result.Fail("Usuário não encontrado.");
@@ -39,7 +39,7 @@ public class WalletService : IWalletService
                 Bank = model.Bank,
                 DateCreated = DateTime.Now,
                 Active = true,
-                CurrentValue = model.CurrentValue
+                CurrentValue = model.CurrentValue ?? 0
             });
 
             var wallerViewModel = new WalletViewModel
