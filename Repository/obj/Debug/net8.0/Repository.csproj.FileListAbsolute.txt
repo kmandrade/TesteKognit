@@ -17,3 +17,4 @@ D:\Projetos\TesteKognit\Repository\bin\Debug\net8.0\Repository.runtimeconfig.jso
 D:\Projetos\TesteKognit\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
 D:\Projetos\TesteKognit\Repository\bin\Debug\net8.0\ViewModel.dll
 D:\Projetos\TesteKognit\Repository\bin\Debug\net8.0\ViewModel.pdb
+D:\Projetos\TesteKognit\Repository\obj\Debug\net8.0\Repository.sourcelink.json

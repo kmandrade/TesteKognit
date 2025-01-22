@@ -36,7 +36,8 @@ public class UserService : IUserService
                 NrCpf = result.NrCpf,
                 Name = result.Name,
                 BithDate = result.BithDate,
-                UserId = result.Id
+                UserId = result.Id,
+                Active = result.Active
             };
 
             return Result.Ok(viewModel);
@@ -46,5 +47,23 @@ public class UserService : IUserService
             _logger.LogError(ex, "Falha ao criar um novo usuário.");
             return Result.Fail("Não foi possível criar um novo usuário, por favor tente novamente");
         }
+    }
+
+    public async Task<List<UserViewModel>?> GetAllUsersAsync()
+    {
+        var users = await _userRepository.GetAllUserAsync();
+
+        if (users == null || !users.Any())
+            return new List<UserViewModel>();
+
+        return users.Select(x => new UserViewModel
+        {
+            BithDate = x.BithDate,
+            Name = x.Name,
+            NrCpf = x.NrCpf,
+            UserId = x.Id,
+            Active = x.Active
+        }).ToList();
+
     }
 }

@@ -8,5 +8,5 @@ public class WalletsUserViewModel
     public decimal CurrentValue { get; set; }
     public string Bank { get; set; } = null!;
     public DateTime? DateModified { get; set; }
-
+    public UserViewModel? User { get; set; }
 }

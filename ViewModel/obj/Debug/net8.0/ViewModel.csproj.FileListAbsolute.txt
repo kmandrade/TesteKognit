@@ -10,3 +10,4 @@ D:\Projetos\TesteKognit\ViewModel\obj\Debug\net8.0\ViewModel.dll
 D:\Projetos\TesteKognit\ViewModel\obj\Debug\net8.0\refint\ViewModel.dll
 D:\Projetos\TesteKognit\ViewModel\obj\Debug\net8.0\ViewModel.pdb
 D:\Projetos\TesteKognit\ViewModel\obj\Debug\net8.0\ref\ViewModel.dll
+D:\Projetos\TesteKognit\ViewModel\obj\Debug\net8.0\ViewModel.sourcelink.json

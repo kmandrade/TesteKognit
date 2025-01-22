@@ -6,4 +6,5 @@ public interface IWalletRepository
 {
     Task<Wallet> CreateWallerAsync(Wallet wallet);
     Task<List<Wallet>?> GetWalletsByCpfUserAsync(string cpfUser);
+    Task<List<Wallet>?> GetAllWalletsAsync();
 }

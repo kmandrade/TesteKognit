@@ -19,3 +19,4 @@ D:\Projetos\TesteKognit\Service\bin\Debug\net8.0\Service.runtimeconfig.json
 D:\Projetos\TesteKognit\Service\obj\Debug\net8.0\Service.genruntimeconfig.cache
 D:\Projetos\TesteKognit\Service\bin\Debug\net8.0\ViewModel.dll
 D:\Projetos\TesteKognit\Service\bin\Debug\net8.0\ViewModel.pdb
+D:\Projetos\TesteKognit\Service\obj\Debug\net8.0\Service.sourcelink.json

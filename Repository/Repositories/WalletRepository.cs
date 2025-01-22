@@ -21,6 +21,13 @@ public class WalletRepository : IWalletRepository
         return wallet;
     }
 
+    public async Task<List<Wallet>?> GetAllWalletsAsync()
+    {
+        return await _context.Set<Wallet>()
+            .Include(x => x.User)
+            .ToListAsync();
+    }
+
     public async Task<List<Wallet>?> GetWalletsByCpfUserAsync(string cpfUser)
     {
         return await _context.Set<Wallet>()
