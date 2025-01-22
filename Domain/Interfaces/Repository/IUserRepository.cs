@@ -7,5 +7,6 @@ public interface IUserRepository
     Task<User> CreateUserAsync(User user);
     Task<User?> GetUserByIdAsync(int userId);
     Task<List<User>?> GetAllUserAsync();
+    Task<User?> GetUserByNrCpf(string nrCpf);
 }
 

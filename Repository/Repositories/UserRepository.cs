@@ -29,5 +29,10 @@ public class UserRepository : IUserRepository
     {
         return await _context.Set<User>().FirstOrDefaultAsync(x => x.Id == userId);
     }
+
+    public async Task<User?> GetUserByNrCpf(string nrCpf)
+    {
+        return await _context.Set<User>().FirstOrDefaultAsync(x => x.NrCpf == nrCpf);
+    }
 }
 

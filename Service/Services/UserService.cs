@@ -23,6 +23,11 @@ public class UserService : IUserService
     {
         try
         {
+            var user = await _userRepository.GetUserByNrCpf(model.NrCpf);
+            
+            if (user != null)
+                return Result.Fail("Usuário já existe.");
+
             var result = await _userRepository.CreateUserAsync(new User
             {
                 Active = true,
